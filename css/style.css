@@ -289,9 +289,6 @@
     gap: 2.4rem;
 }
 
-#footer .sns-list li {
-}
-
 #footer .sns-list li a {
     /* inline요소인 a가 크기와 정렬을 동시에 가질 수 있게 flex와 가로세로 크기를 a에 줌 
     li에게 줬다면 크기만 생기고 a는 inline요소라 그냥 얘맨함
