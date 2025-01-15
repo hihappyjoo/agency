@@ -10,11 +10,14 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
         <link rel="stylesheet" href="./css/reset.css" />
         <link rel="stylesheet" href="./css/common.css" />
         <link rel="stylesheet" href="./css/style.css" />
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     </head>
     <body>
         <!-- s: header -->
@@ -30,6 +33,10 @@
                         <li><a href="#">Work</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
+                    <button type="button" class="btn-menu">
+                        <i class="ri-menu-3-line"></i>
+                        <i class="hidden">메뉴</i>
+                    </button>
                     <button type="button" class="btn-login">
                         <i class="ri-login-box-line"></i>
                         <i class="hidden">로그인</i>
@@ -44,13 +51,13 @@
         <main id="main">
             <section class="video">
                 <div class="video-title">
-                    <h2>an interior design company</h2>
-                    <p>
+                    <h2 data-aos="fade-up" data-aos-delay="300">an interior design company</h2>
+                    <p data-aos="fade-up" data-aos-delay="600">
                         The event is approaching ah, oh, ayy It's growing bigger ah, oh, ayy That tick, that tick, tick
                         bomb That tick, that tick, tick bomb No one dares to touch That's what everyone says Inside me
                         now Su-su-su-supernova
                     </p>
-                    <a href="#" class="btn">request work</a>
+                    <a data-aos="fade-up" data-aos-delay="900" href="#" class="btn">request work</a>
                 </div>
                 <div class="video-wrap">
                     <iframe
@@ -65,9 +72,9 @@
             </section>
             <section class="about">
                 <div class="inner">
-                    <h3 class="sec-title">about us</h3>
-                    <figure><img src="./img/agency-pic.jpg" alt="agency image" /></figure>
-                    <p>
+                    <h3 class="sec-title" data-aos="fade-up" data-aos-delay="400">about us</h3>
+                    <figure data-aos="fade-up"><img src="./img/agency-pic.jpg" alt="agency image" /></figure>
+                    <p data-aos="fade-up">
                         Nova Can't stop hyperstellar Searching for the origin Bring the light of a dying star Look at my
                         universe I've created Supеrnova
                     </p>
@@ -75,8 +82,8 @@
             </section>
             <section class="team">
                 <div class="inner">
-                    <h3 class="sec-title">Team</h3>
-                    <div class="swiper team-slider">
+                    <h3 class="sec-title" data-aos="fade-up">Team</h3>
+                    <div class="swiper team-slider" data-aos="fade-up" data-aos-delay="300">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <figure>
@@ -168,7 +175,7 @@
                     </div>
                     <div class="form-wrap">
                         <input type="text" placeholder="Enter your e-mail" />
-                        <button type="submit">request work</button>
+                        <button type="submit"><b>request work</b></button>
                     </div>
                 </div>
             </section>
@@ -214,5 +221,8 @@
             </div>
         </footer>
         <!-- //e: footer -->
+
+        <!-- script:src -->
+        <script src="./js.script.js"></script>
     </body>
 </html>

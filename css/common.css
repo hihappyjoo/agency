@@ -44,9 +44,9 @@ a:hover {
     color: var(--main-color);
 }
 
-a:visited {
+/* a:visited {
     color: inherit;
-}
+} */
 
 img {
     max-width: 100%;
